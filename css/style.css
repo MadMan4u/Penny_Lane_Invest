@@ -72,6 +72,10 @@ img {
     display: none;
 }
 
+.logo-mobile {
+    display: none;
+}
+
 /* left side */
 
 .left__side {

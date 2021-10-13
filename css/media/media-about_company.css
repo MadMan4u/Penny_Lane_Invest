@@ -76,7 +76,7 @@
         min-height: 905px;
     }
 
-    .menu__item {
+    /* .menu__item {
         margin-bottom: 20px;
     }
 
@@ -95,7 +95,7 @@
 
     .menu__social-item svg {
         width: 36px;
-    }
+    } */
 
     .mobile {
         display: block;
@@ -382,5 +382,10 @@
     .button {
         width: 90%;
     }
+}
 
+@media (max-width: 330px) {
+    .left__side-about-title {
+        margin-right: 20px;
+    }
 }

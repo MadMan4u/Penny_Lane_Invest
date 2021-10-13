@@ -163,6 +163,12 @@
         height: 65px;
     }
 
+    .logo-mobile {
+        display: block;
+        position: absolute;
+        top: 127px;
+    }
+
     .line {
         position: absolute;
     }
@@ -363,7 +369,7 @@
         left: 135px;
     }
 
-    
+
     .menubox ul {
         margin-top: 95px;
     }
