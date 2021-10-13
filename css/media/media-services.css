@@ -299,7 +299,7 @@
   .swiper-slide-text {
     margin: 0;
     font-size: 14px;
-    width: 220px;
+    max-width: 220px;
     line-height: 16px;
   }
 

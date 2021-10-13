@@ -47,7 +47,7 @@ const sliderOne1 = new Swiper(".slider__one1", {
   },
   breakpoints: {
     320: {
-      spaceBetween: 0,
+      spaceBetween: 40,
     },
     680: {
       spaceBetween: 110,
