@@ -1,0 +1,378 @@
+@media (max-width: 1850px) {
+
+    /* right side */
+    .about__square {
+        height: 327px;
+    }
+
+    .about__img {
+        width: 95%;
+    }
+}
+
+@media (max-width: 1770px) {
+    .left__side {
+        z-index: 1;
+    }
+
+    .left__side-about-title {
+        width: 450px;
+    }
+
+    .about__img {
+        top: 130px;
+    }
+}
+
+@media (max-width: 1660px) {
+    .about__img {
+        width: 75%;
+        top: 255px;
+    }
+
+    .about__square {
+        height: 286px;
+        width: 87%;
+    }
+}
+
+@media (max-width: 1450px) {
+    .about__img {
+        width: 70%;
+        top: 460px;
+    }
+
+    .about__square {
+        height: 230px;
+        width: 85%;
+    }
+}
+
+@media (max-width: 1320px) {
+    .about__img {
+        width: 64%;
+        top: 580px;
+    }
+
+    .about__square {
+        height: 179px;
+        width: 82%;
+    }
+}
+
+@media (max-width: 1230px) {
+    .wrapper {
+        grid-template-columns: 100%;
+    }
+
+    .right__side {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .wrapper {
+        min-height: 905px;
+    }
+
+    /* .menu__item-link {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .menu__social-item {
+        margin-right: 20px;
+    }
+
+    .menu__social-item svg {
+        width: 36px;
+    } */
+
+    .mobile {
+        display: block;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .left__side {
+        padding-left: 245px;
+    }
+
+    .left__side-logo {
+        margin-bottom: 170px;
+    }
+
+    .left__side-about-title {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .left__side-about-descr {
+        line-height: 16px;
+    }
+    
+    .about-descr {
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    .button {
+        margin: 0 auto;
+        margin-left: 0;
+        position: relative;
+        width: 460px;
+        height: 76px;
+        font-family: Gilroy;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 29px;
+        color: var(--button-bg);
+        background-color: var(--white-color);
+        margin-bottom: 228px;
+        text-align: center;
+    }
+
+    .button:hover {
+        background-color: var(--white-color);
+    }
+
+    .button::before {
+        content: '';
+        position: static;
+        background-image: url(../img/arrow-btn.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 40px;
+        height: 12px;
+        top: 31px;
+        right: 63px;
+    }
+
+    .swiper {
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 0;
+        margin-bottom: 24px;
+    }
+
+    .square {
+        display: none;
+    }
+
+    .rectangle {
+        position: absolute;
+        width: 71%;
+        height: 95%;
+        max-height: 830px;
+        top: 68px;
+        right: 0;
+        left: auto;
+        z-index: -1;
+        min-height: 780px;
+    }
+
+    .menu-btn {
+        width: 32px;
+        left: 24px;
+        top: 30px;
+    }
+
+    .left__side-about-descr {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .left__side-about-descr:first-child {
+        margin-bottom: 20px;
+    }
+
+    .left__side-logo {
+        margin-bottom: 55px;
+    }
+}
+
+@media (max-width: 920px) {
+    .left__side {
+        padding-left: 150px;
+    }
+
+    .rectangle {
+        width: 77%;
+    }
+
+    .square {
+        position: absolute;
+        top: 164px;
+        display: block;
+        width: 235px;
+        height: 300px;
+        z-index: -2;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .wrapper {
+        min-height: 875px;
+    }
+
+    .menu-btn>span,
+    .menu-btn>span::before {
+        width: 32px;
+        height: 2px;
+    }
+
+    .menubox {
+        background-color: var(--left__side-bg);
+        padding: 180px 0 0 28px;
+    }
+
+    .button {
+        width: 320px;
+        height: 45px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .button a {
+        padding-top: 15px;
+    }
+
+    .rectangle {
+        max-height: 800px;
+    }
+
+    .menu__item {
+        margin-bottom: 20px;
+    }
+
+    .menu__item-link {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media (max-width: 740px) {
+    .left__side {
+        padding-left: 109px;
+    }
+}
+
+@media (max-width: 690px) {
+    .left__side {
+        padding-left: 60px;
+    }
+
+    .left__side-about-title {
+        margin-left: auto;
+        margin-right: 40px;
+    }
+
+    .rectangle {
+        width: 82%;
+    }
+}
+
+@media (max-width: 640px) {
+    .wrapper {
+        min-height: 930px;
+    }
+
+    .left__side-about-title {
+        font-size: 40px;
+        margin-right: -25px;
+    }
+
+    .left__side-about-descr {
+        width: 472px;
+    }
+
+    .left__side-about-title {
+        font-size: 40px;
+        width: 348px;
+        margin-right: 50px;
+    }
+
+    .square {
+        width: 271px;
+        height: 291px;
+    }
+}
+
+@media (max-width: 550px) {
+    .wrapper {
+        min-height: 830px;
+    }
+
+    .rectangle {
+        min-height: 750px;
+    }
+
+    .left__side {
+        padding-left: 45px;
+    }
+
+    .left__side-about-title {
+        font-size: 25px;
+        width: 348px;
+        margin-right: 0px;
+        margin-bottom: 35px;
+    }
+
+    .left__side-about-descr {
+        font-size: 14px;
+        width: 420px;
+    }
+
+    .square {
+        top: 120px;
+    }
+}
+
+@media (max-width: 470px) {
+
+    .wrapper {
+        min-height: 895px;
+    }
+
+    .left__side-about-descr {
+        font-size: 14px;
+        width: 334px;
+    }
+
+    .left__side {
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 450px) {
+    .left__side-about-title {
+        margin-right: 40px;
+        width: 225px;
+    }
+
+    .left__side-about-descr br {
+        display: none;
+    }
+}
+
+@media (max-width: 360px) {
+    .wrapper {
+        min-height: 945px;
+    }
+
+    .left__side-about-descr {
+        width: 311px;
+    }
+
+    .button {
+        width: 90%;
+    }
+
+}
