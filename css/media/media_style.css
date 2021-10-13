@@ -27,10 +27,6 @@
         margin-left: 70px;
     }
 
-    .button {
-        z-index: 1;
-    }
-
 }
 
 @media (max-width: 1500px) {

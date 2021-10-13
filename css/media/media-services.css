@@ -1,6 +1,14 @@
 @media (max-width: 1860px) {
+  .left__side-feedback {
+    z-index: 4;
+  }
+
   .wrapper {
     grid-template-columns: 42% 58%;
+  }
+
+  .feedback__end {
+    z-index: 0;
   }
 }
 
