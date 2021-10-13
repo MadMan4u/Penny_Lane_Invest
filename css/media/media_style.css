@@ -74,6 +74,10 @@
         margin-bottom: 15px;
     }
 
+    .right__side-circle {
+        margin-bottom: 520px;
+    }
+
     .left__side-logo p {
         font-size: 30px;
         z-index: 0;
@@ -325,8 +329,12 @@
         height: 230px;
     }
 
+    .consultation__text-name {
+        margin-bottom: 15px;
+    }
+
     .consultation__socials {
-        margin-bottom: 13px;
+        margin-bottom: 20px;
     }
 
     .consultation-person {
@@ -393,6 +401,7 @@
     .title {
         height: 110px;
         width: 310px;
+        margin-bottom: 25px;
     }
 
     .main-title {
@@ -528,5 +537,11 @@
     .main-title {
         font-size: 25px;
         width: 285px;
+    }
+}
+
+@media (max-width: 330px) {
+    .swiper {
+        left: 5px;
     }
 }

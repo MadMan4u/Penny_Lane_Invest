@@ -1,3 +1,4 @@
+// sliders
 const swiper = new Swiper(".swiper", {
     spaceBetween: 20,
     slidesPerView: 3,
@@ -22,14 +23,15 @@ const swiperMobile = new Swiper(".mobile-slider", {
     slidesPerView: 2,
     slidesPerGroup: 3,
 });
+
+//Developments
 $('.right__side-circle').click(function () {
     $('.consultation').addClass('consultation--active');
     $('.right__side-circle').css('z-index', '1');
     $('#phone').css('z-index', '-1');
     $('.consultation-person').css('z-index', '1');
 });
-
-$(document).mouseup(function (e) { // событие клика по веб-документу
+$(document).mouseup(function (e) {
     $('.consultation').removeClass('consultation--active');
 });
 // $('.button').click( function() {
