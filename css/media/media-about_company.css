@@ -76,7 +76,15 @@
         min-height: 905px;
     }
 
-    /* .menu__item-link {
+    .menu__item {
+        margin-bottom: 20px;
+    }
+
+    .menu__item:last-child {
+        margin-bottom: 60px;
+    }
+
+    .menu__item-link {
         font-size: 14px;
         line-height: 16px;
     }
@@ -87,7 +95,7 @@
 
     .menu__social-item svg {
         width: 36px;
-    } */
+    }
 
     .mobile {
         display: block;
