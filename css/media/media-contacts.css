@@ -137,13 +137,13 @@
     
     .menu-btn {
         width: 32px;
-        left: 24px;
-        top: 30px;
+        left: 28px;
+        top: 32px;
     }
     
     .menubox {
         background-color: var(--left__side-bg);
-        padding: 180px 0 0 28px;
+        padding: 253px 0 0 28px;
     }
 
     .menu-btn>span,
@@ -172,6 +172,13 @@
     .menu__social-item svg {
         width: 36px;
     }
+
+    .logo-mobile {
+        display: block;
+        position: absolute;
+        top: 127px;
+    }
+
 }
 
 @media (max-width: 1050px) {
@@ -265,5 +272,9 @@
     .menu-btn {
         top: 53px;
         left: 28px;
+    }
+
+    .links {
+        padding: 0;
     }
 }
