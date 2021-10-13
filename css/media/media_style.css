@@ -150,6 +150,14 @@
         font-size: 25px;
     }
 
+    .left__side-feedback {
+        z-index: 4;
+    }
+
+    .feedback__end {
+        z-index: -1;
+    }
+
     .logo {
         width: 50px;
         height: 65px;
@@ -181,6 +189,7 @@
         font-weight: 500;
         font-size: 14px;
         line-height: 16px;
+        z-index: 1;
     }
 
     .button a {
@@ -211,9 +220,14 @@
         display: block;
     }
 
+    #menu-toggle:checked~.menubox {
+        z-index: 2;
+    }
+
     .menu-btn {
         width: 32px;
         top: 32px;
+        z-index: 3;
     }
 
     .left__side-logo {

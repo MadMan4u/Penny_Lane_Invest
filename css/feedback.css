@@ -445,3 +445,28 @@
         left: 190px;
     }
 }
+
+@media (max-width: 350px) {
+    .feedback__title {
+        font-size: 20px;
+        margin-right: 30px;
+    }
+
+    .feedback__wrapper-items input,
+    .feedback__wrapper-items input[type='text'] {
+        width: 300px;
+    }
+
+    .feedback__item-commentary, 
+    .feedback__item-commentary[type='text'] {
+        width: 300px;
+    }
+
+    .feedback__btn-send {
+        width: 300px;
+    }
+
+    .left__side-cross span {
+        right: 25px;
+    }
+}
