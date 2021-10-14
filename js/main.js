@@ -27,9 +27,9 @@ const swiperMobile = new Swiper(".mobile-slider", {
 //Developments
 $('.right__side-circle').click(function () {
     $('.consultation').addClass('consultation--active');
-    $('.right__side-circle').css('z-index', '1');
+    $('.right__side-circle').css('z-index', '2');
     $('#phone').css('z-index', '-1');
-    $('.consultation-person').css('z-index', '1');
+    $('.consultation-person').css('z-index', '2');
 });
 $(document).mouseup(function (e) {
     $('.consultation').removeClass('consultation--active');

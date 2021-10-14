@@ -334,7 +334,7 @@
     .right__side-circle {
         width: 65px;
         height: 65px;
-        z-index: 1;
+        z-index: 2;
     }
 
     .right__side-circle svg {
